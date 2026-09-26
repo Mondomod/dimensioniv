@@ -1,8 +1,8 @@
 @prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<urn:hvcc:Dimension_IV>
+<urn:hvcc:DimensionIV>
     a lv2:Plugin ;
-    lv2:binary <Dimension_IV_dsp.so> ;
-    rdfs:seeAlso <Dimension_IV_dsp.ttl>, <modgui.ttl> .
+    lv2:binary <DimensionIV_dsp.so> ;
+    rdfs:seeAlso <DimensionIV_dsp.ttl>, <modgui.ttl> .
 
