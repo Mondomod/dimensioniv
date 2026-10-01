@@ -165,7 +165,10 @@
 .mod-pedal-dimiv{{{cns}}} .mod-control-group .mod-dimbutton > span.mod-knob-title {
     display:none;
 }
-.mod-pedal-dimiv{{{cns}}} .mod-button1-image,.mod-dimbutton .mod-button2-image,.mod-button3-image,.mod-button4-image {
+.mod-pedal-dimiv{{{cns}}} .mod-control-group .mod-enumerated .mod-dimbutton .mod-button1-image, 
+.mod-pedal-dimiv{{{cns}}} .mod-control-group .mod-enumerated .mod-dimbutton .mod-button2-image, 
+.mod-pedal-dimiv{{{cns}}} .mod-control-group .mod-enumerated .mod-dimbutton .mod-button3-image, 
+.mod-pedal-dimiv{{{cns}}} .mod-control-group .mod-enumerated .mod-dimbutton .mod-button4-image  {
     height:112px;
     width: 50px;
 	background-position: -74px 0px;
