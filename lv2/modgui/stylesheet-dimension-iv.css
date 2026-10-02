@@ -88,22 +88,23 @@
 	margin-top: -5px;
 }
 
-.mod-enumerated >hover {
+.mod-enumerated :hover{
 	 background: rgba(0, 0, 0, 0.0);
 }
 
 .mod-pedal-dimiv{{{cns}}}.mod-dimiv .mod-enumerated-list {
-    width: 240px;
-	height: 120px;
+    width: 200px;
+
 }
 
 .mod-pedal-dimiv{{{cns}}}.mod-dimiv .mod-enumerated .mod-enumerated-selected {
     font-size: 0px;
 }
 
-.mod-dimbutton .selected {
-	 background-position: -13px 0px !important;
+.mod-pedal-dimiv{{{cns}}} .mod-enumerated-list .selected {
+    background-position: -13px 0px !important;
 }
+
 
 
 /* = BUTTONS
@@ -112,11 +113,10 @@
 .buttonbox  {
 	display: flex !important;
 	flex-direction: row;
-
 	left: 22px; 
 }
 
-.buttonbox>hover {
+.buttonbox:hover{
 	 background: rgba(0, 0, 0, 0.0);
 }
 
@@ -136,31 +136,29 @@
 
 .mod-pedal-dimiv{{{cns}}} .mod-control-group {
     height:141px;
-    left:17px;
-    position:absolute;
-    right:17px;
+    left:2px;
+    position: relative;
     top:23px;
 	background: rgba(0, 0, 0, 0.0);
 }
 
-.mod-control-group>hover {
+.mod-control-group:hover{
 	background: rgba(0, 0, 0, 0.0) !important;
 }
 
 .mod-dimbutton {
     margin:0px auto;
-    position:relative;
     overflow: hidden;
 	background: rgba(0, 0, 0, 0.0);
 }
 
 .mod-pedal-dimiv{{{cns}}} .mod-control-group .dimmod-button{
-    height:124px;
+
     float:left;
     overflow:hidden;
     position:relative;
     text-align:center;
-    width:240px;
+    width:200px;
 }
 .mod-pedal-dimiv{{{cns}}} .mod-control-group .mod-dimbutton > span.mod-knob-title {
     display:none;
