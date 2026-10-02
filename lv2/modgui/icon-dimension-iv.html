@@ -2,18 +2,17 @@
     <div mod-role="drag-handle" class="mod-drag-handle"></div>
     <div class="mod-plugin-brand"><h1>{{brand}}</h1></div>
     <div class="mod-light on" mod-role="bypass-light"></div>
-    <div class="mod-control-group mod-{{knob}} clearfix">
-        {{#controls.1}}
+	
+    <div class="mod-control-group mod-enumerated-group clearfix">
 	<div class="mod-enumerated" mod-role="input-control-port" mod-port-symbol="dimension" mod-widget="custom-select">
 	         <div class="mod-enumerated-list mod-dimbutton buttonbox">
-			 	<div mod-role="input-control-value" mod-port-symbol="{{symbol}}" class="mod-enumerated-selected"></div>
+			<!-- 	<div mod-role="input-control-value" mod-port-symbol="{{symbol}}" class="mod-enumerated-selected"></div> -->
 				<div class="mod-button1-image" mod-role="enumeration-option" mod-port-value="1"></div>
 				<div class="mod-button2-image" mod-role="enumeration-option" mod-port-value="2" ></div>
 				<div class="mod-button3-image" mod-role="enumeration-option" mod-port-value="3" ></div>
 				<div class="mod-button4-image" mod-role="enumeration-option" mod-port-value="4" ></div>
 			</div>
     </div>
-        {{/controls.1}}
     </div>
     <div class="mod-footswitch" mod-role="bypass"></div>
     <div class="mod-pedal-input">
