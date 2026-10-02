@@ -147,7 +147,8 @@
 }
 
 .mod-dimbutton {
-    margin:0px auto;
+    position: relative;
+	left: 34px;
     overflow: hidden;
 	background: rgba(0, 0, 0, 0.0);
 }
