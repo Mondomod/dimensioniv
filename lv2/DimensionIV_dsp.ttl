@@ -15,7 +15,7 @@
 @prefix unit:  <http://lv2plug.in/ns/extensions/units#> .
 
 <urn:hvcc:DimensionIV>
-    a lv2:Plugin, lv2:SpatialPlugin, doap:Project ;
+    a lv2:Plugin, lv2:ChorusPlugin, doap:Project ;
 
     lv2:extensionData opts:interface ;
 
@@ -128,5 +128,5 @@
 		foaf:homepage <https://websites.umich.edu/~jauge/dimensioniv/> ;		
     ] ;
 
-    lv2:microVersion 1 ;
+    lv2:microVersion 2 ;
     lv2:minorVersion 1 .
